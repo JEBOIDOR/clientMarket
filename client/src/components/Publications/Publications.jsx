@@ -136,6 +136,10 @@ export const Publications = () => {
     setPublications(response.publications);
   };
 
+  useEffect(() => {
+    console.log(allPublications);
+  }, [allPublications]);
+
   return (
     <div className="publications">
       {isAuthenticated === false
@@ -309,11 +313,16 @@ export const Publications = () => {
                 </div>
               </div>
               <div className="contenido">{element.contenido}</div>
-              <img
-                src={element.url}
-                alt="Imagen de la publicación"
-                className="imagen-publicacion"
-              />
+              {element.type === "Video/mp4" ? (
+                <video src={element.url} controls></video>
+              ) : (
+                <img
+                  src={element.url}
+                  alt="Imagen de la publicación"
+                  className="imagen-publicacion"
+                />
+              )}
+
               <div className="post-box">
                 <div>
                   {modalStates[index] && (

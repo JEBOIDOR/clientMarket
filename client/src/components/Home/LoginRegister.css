@@ -5,7 +5,7 @@
 
 .frame {
   position: fixed;
-  width: 35%;
+  width: 30%;
   height: 100dvh;
   border: 1px solid rgba(47, 51, 54, 255);
   background: #1c1c1c;
@@ -106,13 +106,11 @@ li {
 }
 
 .form-signup {
-  width: 430px;
+  left: 30px;
+  width: 100%;
   height: 100%;
   font-size: 16px;
-  font-weight: 300;
   position: relative;
-  left: 6px;
-  /* opacity: 0; */
   transition: all 0.5s ease;
 }
 
@@ -184,7 +182,6 @@ li {
 }
 
 label {
-  font-weight: 400;
   text-transform: uppercase;
   font-size: 13px;
   padding-left: 15px;
