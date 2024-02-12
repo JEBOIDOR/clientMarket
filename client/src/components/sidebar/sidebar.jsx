@@ -72,12 +72,14 @@ const SideBar = () => {
                         </span>
                         Settings
                       </a>
-                      <a href="nosotros.html">
+
+                      <NavLink to="/about">
                         <span className="icon">
                           <i className="ri-profile-line"></i>
                         </span>
                         About
-                      </a>
+                      </NavLink>
+
                       <NavLink to="/profileUser">
                         <span className="icon">
                           <i class="ri-user-line"></i>

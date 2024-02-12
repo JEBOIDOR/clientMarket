@@ -1,0 +1,62 @@
+.carousel-container {
+  max-width: 70%;
+  margin: 0 auto;
+  height: 100dvh;
+}
+
+.title-text {
+  font-weight: 500;
+}
+
+.section-container {
+  display: flex;
+  gap: 50px;
+  height: 70dvh;
+}
+
+.section-left {
+  background-color: #d0b280;
+  width: 45%;
+}
+
+.section-left > img {
+  border: 1px black solid;
+  padding: 10px;
+  position: relative;
+  top: 10em;
+  left: 7em;
+  height: 300px;
+}
+
+.section-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #d0b280;
+  text-align: left;
+  width: 55%;
+}
+
+.button-contactUs {
+  padding: 15px;
+  background: none;
+  color: #d0b280;
+  border: #d0b280 1px solid;
+  cursor: pointer;
+}
+
+.section-right > p {
+  line-height: 1.825em;
+  padding-left: 40px;
+  font-weight: 200;
+}
+
+.section-right h1 {
+  line-height: 2em;
+  color: #d0b280;
+  font-weight: 100;
+  position: relative;
+  left: 0.4em;
+  font-size: 4em;
+  letter-spacing: 0.012em;
+}
