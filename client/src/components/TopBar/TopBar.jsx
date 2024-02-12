@@ -6,12 +6,11 @@ const TopBar = ({ toggleSidebar }) => {
   return (
     <div className="top-bar">
       <img src="./img/2.png" alt="" />
-      <div>
-        <SearchBar></SearchBar>
-        <button className="hide-sidebar-button" onClick={toggleSidebar}>
-          <Icon icon="vaadin:lines" width="1.2em" height="1.2em" />
-        </button>
-      </div>
+
+      <SearchBar></SearchBar>
+      <button className="hide-sidebar-button" onClick={toggleSidebar}>
+        <Icon icon="vaadin:lines" width="1.2em" height="1.2em" />
+      </button>
     </div>
   );
 };

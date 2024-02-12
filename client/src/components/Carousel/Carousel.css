@@ -23,9 +23,10 @@
   border: 1px black solid;
   padding: 10px;
   position: relative;
-  top: 10em;
-  left: 7em;
-  height: 300px;
+  top: 0.5vh;
+  width: 100%;
+  left: 5vw;
+  height: 75%;
 }
 
 .section-right {

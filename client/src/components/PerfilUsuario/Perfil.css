@@ -39,8 +39,8 @@
 
 .file-input-label {
   position: absolute;
-  bottom: 1.5em;
-  right: 2em;
+  bottom: 4dvh;
+  right: 3.5dvw;
   cursor: pointer;
   background-color: rgba(47, 51, 54, 255);
   border: none;
@@ -333,51 +333,39 @@
 /* Media queries para pantallas de 1200px o menos */
 @media screen and (max-width: 1440px) {
   .file-input-label {
-    bottom: 1.5em;
-    right: 0.25em;
+    right: 0.5dvw;
   }
 }
 
 @media screen and (max-width: 1200px) {
-  .profile-picture {
-    width: 15%;
-    height: 120px;
-  }
-
   .profileUserData {
     width: 80%;
-  }
-
-  .file-input-label {
-    bottom: -0.5em;
-    right: -4.5em;
   }
 }
 
 /* Media queries para pantallas de 992px o menos */
 @media screen and (max-width: 992px) {
-  .profile-picture {
-    width: 20%;
-    height: 120px;
+  .info-usuarioData {
+    display: block;
+    max-width: 60%;
+  }
+
+  .form-container {
+    width: auto;
   }
 
   .file-input-label {
-    bottom: -0.5em;
-    right: -2.25em;
+    right: -2dvw;
   }
 }
 
 /* Media queries para pantallas de 768px o menos */
 @media screen and (max-width: 768px) {
   .file-input-label {
-    bottom: -4.5em;
-    right: 8.25em;
+    right: -7.5dvw;
   }
-  .profile-picture {
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
-    margin-bottom: 20px;
+
+  .floatData {
+    justify-content: space-around;
   }
 }

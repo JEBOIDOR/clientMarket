@@ -1,4 +1,3 @@
-import SideBar from "../../sidebar/sidebar";
 import "./publicar.css";
 import {
   sendPublications,
