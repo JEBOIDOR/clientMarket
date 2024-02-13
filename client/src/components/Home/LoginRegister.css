@@ -330,6 +330,13 @@ textarea:focus {
     background-color 0.5s ease 0.75s;
 }
 
+.btn-animate > button {
+  border: none;
+  background: none;
+  color: #ffff;
+  font-weight: 500;
+}
+
 .forgot {
   height: 100px;
   width: 80%;
